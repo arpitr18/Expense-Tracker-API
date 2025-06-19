@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import ratelimiter from "./middleware/rateLimiter.middleware.js";
 import transactionsRoute from "./routes/transactions.route.js";
 import initDB from "./config/ds.js";
+import job from "./config/cron.js";
+
 
 dotenv.config();
 
